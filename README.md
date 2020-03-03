@@ -22,7 +22,7 @@ First thing first. Perform following steps in the given order:
 There are two scripts which runs Topic modelling using MALLET in two steps as mentioned below:
 
 ## import.js
-This step is about preprocessing the repositories metadata and generate a mallet training file at `modelling` folder at the root of the project. This file act as input for MALLET topic modelling.
+This step is preprocess the text files dataset and generate a mallet training file at `modelling` folder at the root of the project. This file generated will act as input for next step. As an input in this step, it requires all the text files should be placed inside `dataset` folder at the root of the project.
 
 Use following command:
 
